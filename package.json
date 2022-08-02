@@ -1,0 +1,32 @@
+{
+	"name": "fastify-knex-paginate",
+	"version": "1.0.0",
+	"description": "A module for Fastify to support Knex's query builder with paginate method",
+	"main": "knex.js",
+	"types": "knex.d.ts",
+	"repository": "git@github.com:erwinstone/fastify-knex-paginate.git",
+	"author": "Erwin Stone <erwinstone@pm.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/erwinstone/fastify-knex-paginate/issues"
+	},
+	"homepage": "https://github.com/erwinstone/fastify-knex-paginate#readme",
+	"keywords": [
+		"fastify",
+		"knex",
+		"knex-paginate",
+		"fastify-knex",
+		"fastify-knex-paginate"
+	],
+	"dependencies": {
+		"fastify-plugin": "^4.0.0",
+		"knex": "^2.2.0",
+		"knex-paginate": "^3.0.1"
+	},
+	"devDependencies": {
+		"fastify": "^4.3.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
